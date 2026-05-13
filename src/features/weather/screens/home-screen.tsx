@@ -17,16 +17,16 @@ export function WeatherHomeScreen() {
             Weather app architecture is in place
           </ThemedText>
           <ThemedText style={styles.body}>
-            TanStack Query is wired at the app root, and the project now has dedicated feature and
-            service boundaries for upcoming weather, search, and location work.
+            TanStack Query is wired at the app root, and the Open-Meteo service layer now maps raw
+            API responses into app-owned weather and location models.
           </ThemedText>
         </ThemedView>
 
         <ThemedView type="backgroundElement" style={styles.card}>
           <ThemedText type="subtitle">Next implementation slices</ThemedText>
           <ThemedText style={styles.cardText}>
-            Add the Open-Meteo API layer, location permission flow, and current-weather query
-            state.
+            Add the location permission flow, then connect the first current-weather query to the
+            home screen.
           </ThemedText>
         </ThemedView>
       </SafeAreaView>
