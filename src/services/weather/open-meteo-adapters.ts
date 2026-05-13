@@ -1,8 +1,5 @@
-import type {
-  Coordinates,
-  LocationSearchResult,
-  WeatherForecast,
-} from '@/services/weather/models';
+import type { Coordinates } from '@/services/location/models';
+import type { LocationSearchResult, WeatherForecast } from '@/services/weather/models';
 import type {
   OpenMeteoForecastResponse,
   OpenMeteoLocationResult,

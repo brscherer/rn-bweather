@@ -25,8 +25,8 @@ export function WeatherHomeScreen() {
         <ThemedView type="backgroundElement" style={styles.card}>
           <ThemedText type="subtitle">Next implementation slices</ThemedText>
           <ThemedText style={styles.cardText}>
-            Add the location permission flow, then connect the first current-weather query to the
-            home screen.
+            Connect Expo Location permission and device-coordinate access, then wire the first
+            current-weather query to the home screen.
           </ThemedText>
         </ThemedView>
       </SafeAreaView>

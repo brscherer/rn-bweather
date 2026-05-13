@@ -1,7 +1,4 @@
-export type Coordinates = {
-  latitude: number;
-  longitude: number;
-};
+import type { Coordinates } from '@/services/location/models';
 
 export type LocationSearchResult = Coordinates & {
   id: number;
